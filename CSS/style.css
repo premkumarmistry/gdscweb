@@ -1,0 +1,160 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-item {
+    margin-right: 25px;
+}
+
+.navbar-toggler {
+    outline: none;
+    border: 0;
+
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.wcarousel {
+    margin-top: 90px;
+}
+
+.abt-gdsc {
+    text-align: justify;
+}
+
+.leads {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 8px;
+    padding-top: 20px;
+}
+
+.abt-lead {
+    text-align: justify;
+}
+
+.team-lead{
+    margin-top: 60px;
+}
+
+.s-lead-img {
+    width: 50%;
+    border-radius: 50%;
+    /* border: 4px solid red; */
+    box-shadow: 3px 3px 15px #443838;
+}
+
+.s-card {
+    border-width: 4px !important;
+    margin: 10px !important;
+}
+
+.event-img {
+    margin-top: 90px;
+}
+
+.events-date {
+    background-color: #7d8185;
+    width: 35%;
+    color: #fff;
+    border-radius: 20px;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.card {
+    box-shadow: 3px 3px 10px grey;
+}
+
+.team-card {
+    box-shadow: 2px 2px 10px #443838;
+    border-radius: 30px;
+}
+
+.team-card h3 {
+    text-shadow: 0px 0px 10px #443838;
+}
+
+.project-card {
+    margin-top: 110px;
+}
+
+.project-card .card {
+    margin: 30px;
+}
+
+.project-card-link {
+    background-color: #eee;
+    border-radius: 20px;
+    padding: 5px;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.project-card-link i {
+    font-size: 20px;
+    padding-left: 3px;
+}
+
+.project-card-link span {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 15px;
+}
+
+.project-card-link:hover {
+    background-color: rgb(138, 138, 138);
+}
+
+.gallery-item {
+    margin-top: 150px;
+}
+
+.owl-carousel .card {
+    box-shadow: none;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+}
+
+.footer i {
+    padding-right: 10px;
+    font-size: 25px;
+    transition: 0.3s;
+}
+
+.footer a {
+    font-size: 22px;
+    transition: 0.3s;
+    color: #fff;
+}
+
+.footer a:hover {
+    color: #686868;
+}
+
+.footer i:hover {
+    color: #686868;
+}
+
+
+
+
+
+@media screen and (max-width: 1300px) {
+    .gdsc-logo {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .gdsc-logo {
+        width: 200px;
+    }
+}
