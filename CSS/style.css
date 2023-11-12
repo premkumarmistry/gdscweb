@@ -35,8 +35,9 @@
     text-align: justify;
 }
 
-.team-lead{
+.team-lead {
     margin-top: 60px;
+    height: 100vh;
 }
 
 .s-lead-img {
